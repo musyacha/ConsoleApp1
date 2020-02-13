@@ -16,11 +16,11 @@ namespace ConsoleApp1
             String x_str = Console.ReadLine();
             Console.Write("Введите y>");
             String y_str = Console.ReadLine();
-            int x = int.Parse(x_str);
-            int y = int.Parse(y_str);
-            int z = x + y;
-            //Console.WriteLine("{0}+{1}={2}",x,y,z);
-            Console.WriteLine($"{x}+{y}={z}");
+            double x = double.Parse(x_str);
+            double y = double.Parse(y_str);
+            double z = x / y;
+            Console.WriteLine("{0}+{1}={2:0.00##}",x,y,z);
+            //Console.WriteLine($"{x}/{y}={z}");
             Console.ReadLine();
 
         }
