@@ -11,7 +11,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Console.WriteLine("Hello WODLD");
-            //Console.ReadLine();
+            Console.ReadLine();
             Console.Write("Введите>");
             String str = Console.ReadLine();
             Console.WriteLine("Введено " + str);
